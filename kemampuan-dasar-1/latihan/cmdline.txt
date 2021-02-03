@@ -1,0 +1,90 @@
+1.(D:\>cd praxis-academy)
+D:\praxis-academy>
+
+2.(D:\praxis-academy>dir)
+ Volume in drive D is Data
+ Volume Serial Number is B006-230A
+
+ Directory of D:\praxis-academy
+
+02/02/2021  09:56 PM    <DIR>          .
+02/02/2021  09:56 PM    <DIR>          ..
+02/02/2021  09:56 PM    <DIR>          kemampuan-dasar-1
+               0 File(s)              0 bytes
+               3 Dir(s)  43,761,631,232 bytes free
+
+3.(D:\praxis-academy>md cobain)
+
+D:\praxis-academy>dir
+ Volume in drive D is Data
+ Volume Serial Number is B006-230A
+
+ Directory of D:\praxis-academy
+
+02/02/2021  10:06 PM    <DIR>          .
+02/02/2021  10:06 PM    <DIR>          ..
+02/02/2021  10:06 PM    <DIR>          cobain
+02/02/2021  09:56 PM    <DIR>          kemampuan-dasar-1
+               0 File(s)              0 bytes
+               4 Dir(s)  43,761,631,232 bytes free
+
+4.(D:\praxis-academy>rd cobain)
+
+D:\praxis-academy>dir
+ Volume in drive D is Data
+ Volume Serial Number is B006-230A
+
+ Directory of D:\praxis-academy
+
+02/02/2021  10:09 PM    <DIR>          .
+02/02/2021  10:09 PM    <DIR>          ..
+02/02/2021  09:56 PM    <DIR>          kemampuan-dasar-1
+               0 File(s)              0 bytes
+               3 Dir(s)  43,761,631,232 bytes free
+
+5.(D:\praxis-academy>move coba1 kemampuan-dasar-1)
+        1 dir(s) moved.
+6.(D:\praxis-academy\kemampuan-dasar-1>cd ../)
+
+D:\praxis-academy>
+
+7.(D:\praxis-academy>echo belajar > cobain.doc)
+
+8.(D:\praxis-academy>copy coba.doc kemampuan-dasar-1)
+        1 file(s) copied.
+
+9.(D:\praxis-academy>ren "coba.doc" "baco.doc")
+10.(C:\Users\haunan>ipconfig)
+11.(C:\Users\haunan>nslookup youtube.com)
+Server:  192.168.0.1
+Address:  192.168.0.1
+
+Non-authoritative answer:
+Name:    youtube.com.www.tendawifi.com
+Addresses:  36.86.63.182
+          36.86.63.182
+
+12.(C:\Users\haunan>ping youtube.com)
+
+Pinging youtube.com [172.217.194.136] with 32 bytes of data:
+Reply from 172.217.194.136: bytes=32 time=35ms TTL=103
+
+13.(C:\Users\haunan>netstat)
+
+Active Connections
+
+14.(C:\Users\haunan>tracert youtube.com)
+
+Tracing route to youtube.com [172.217.194.136]
+over a maximum of 30 hops:
+
+  1     2 ms     2 ms     1 ms  192.168.0.1 [192.168.0.1]
+  2     9 ms     *        2 ms  gpon.net [192.168.1.1]
+
+15.(\Users\haunan>cls)
+16.(C:\Users\haunan>shutdown -s -t 3600)
+17.(D:\praxis-academy>type cobain.doc)
+belajar
+18.(D:\praxis-academy>systeminfo)
+19.(D:\praxis-academy>arp -a)
+20.(D:\praxis-academy>tasklist)
