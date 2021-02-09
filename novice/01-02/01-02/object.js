@@ -6,4 +6,4 @@ let mahasiswa = {
 //console.log(mahasiswa);
 console.log(mahasiswa['nim']);
 console.log(mahasiswa.nama);
-//console.log(mahasiswa.mbuh);
+console.log(mahasiswa.mbuh);
