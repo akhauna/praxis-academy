@@ -16,6 +16,18 @@ let penghitung = {
     kelilingpersegi :(s)=>`keliling persegi dengan sisi (${s}) adalah : ${4*s}`
 };
 
+let hitungtotal = [
+    penghitung.kelilingpersegi(10),
+    penghitung.luaspersegi(10),
+    penghitung.luaspersegipanjang(2,4),
+    penghitung.kelilingpersegipanjang(2,4),
+    penghitung.luaslingkaran(6),
+    penghitung.kelilinglingkaran(6)
+]
+for(i =1; i< hitungtotal.length; i++){
+    console.log(`${i}. ${hitungtotal[i]}`);
+}
+
 /*
 let luaspp=penghitung.luaspersegipanjang(2,4)
 let kellpp=penghitung.kelilingpersegipanjang(2,4)
@@ -29,16 +41,3 @@ console.log(luastotal)
 */
 
 
-
-
-let hitungtotal = [
-    penghitung.kelilingpersegi(10),
-    penghitung.luaspersegi(10),
-    penghitung.luaspersegipanjang(2,4),
-    penghitung.kelilingpersegipanjang(2,4),
-    penghitung.luaslingkaran(6),
-    penghitung.kelilinglingkaran(6)
-]
-for(i =1; i< hitungtotal.length; i++){
-    console.log(`${i}. ${hitungtotal[i]}`);
-}
