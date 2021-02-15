@@ -20,7 +20,7 @@ class persegip{
 const kotak = new persegip(2,4)
 
 console.log(kotak.keliling())
-
+/*
 class kubus extends persegip{
     constructor (p,l,t){
         super(p,l)
@@ -35,3 +35,6 @@ class kubus extends persegip{
 const volum = new kubus(2,3,4)
 
 console.log(volum.volume())
+*/
+
+module.exports={persegip,kotak};
