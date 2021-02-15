@@ -11,26 +11,39 @@ let myPromise = new Promise(function(resolve, reject){
   });
   */
 
-const hitung = (a,b)=>{
-    return new Promise ((resolve,reject)=>{
-        setTimeout(()=>{
-            if (a>0){
-                resolve((a,b)=>{
-                if (a<5){
-                    (a+b)
-                }
-                if (a>5){
-                    (a*b)
-                }
-                })
-            }
-            reject ('a kurang dari 0')
-        },20)
-    })
+//const { rejects } = require("assert");
+
+const mobil1=()=>(new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+        resolve('mobil1')
+    },2000)
+}))
+
+const mobil2=()=>(new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+        resolve('mobil2')
+    },3000)
+}))
+
+const mobil3=()=>(new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+        resolve('mobil3')
+    },500)
+}))
+
+async function promseAll(){
+    let result = await Promise.all(
+        [mobil1(),mobil2(),mobil3()]
+    )
+    console.log(result);
 }
 
-let a=hitung(9,9)
+async function promiseBalap(){
+    let result = await Promise.race(
+        [mobil1(),mobil2(),mobil3()]
+    )
+    console.log(result);
+}
 
-a.then(a=>console.log(a)).catch(err=>console.log(err))
-
-//a.then(a=>a+9).then(a=>console.log(a)).catch(err=>console.log(err))
+promseAll()
+promiseBalap()
