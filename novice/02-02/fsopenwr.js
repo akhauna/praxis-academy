@@ -4,7 +4,7 @@ fs.open('mynewfile2.txt', 'w+', function (err, file) {
     if (err) throw err;
     
     // kontent yang akan kita tulis ke file
-    let content = "Hello Petanikode!";
+    let content = "halo gembul";
 
     // tulis konten ke file
     fs.writeFile(file, content, (err) => {

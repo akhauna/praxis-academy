@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-fs.unlink('mynewfile1.txt', function (err) {
+fs.unlink('buatfile.js', function (err) {
     if (err) throw err;
     console.log('File deleted!');
 }); 

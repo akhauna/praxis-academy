@@ -3,7 +3,7 @@
 var fs = require('fs');
 
 //create a file named mynewfile1.txt:
-fs.appendFile('mynewfile1.txt', 'Hello dari Petanikode!', function (err) {
+fs.appendFile('buatfile.js', 'isi data', function (err) {
   if (err) throw err;
   console.log('Saved!');
 });
