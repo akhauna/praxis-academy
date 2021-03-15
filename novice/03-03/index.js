@@ -2,7 +2,7 @@
 //const {Client} = require('pg')
 const Client=require('pg').Client
 const pclient = new Client({
-    database: 'kulyah',
+    database: 'kulyah2',
     user:'postgres',
     password: 'unanganteng',
 
