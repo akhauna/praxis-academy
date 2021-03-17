@@ -1,9 +1,9 @@
 const PgClient = require('pg').Client;
 
 const db = new PgClient({
-    database: 'penjualan',
+    database: 'unanshop',
     user: 'postgres',
-    password: '123123123'
+    password: 'unanganteng'
 });
 
 module.exports = db;
